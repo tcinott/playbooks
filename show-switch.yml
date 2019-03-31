@@ -1,5 +1,5 @@
----
-name: run show commands
+- name: run show commands
+  hosts: all
   telnet:
     user: admin
     password: tericomsu
