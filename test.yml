@@ -1,0 +1,12 @@
+- name: run show commands
+  hosts: all
+  gather_facts: False
+  tasks:
+    - telnet:
+       user: admin
+       password: tericomsu
+       login_prompt: "Username: "
+       prompts:
+         - "[>|#]"
+       command:
+         - show switch
