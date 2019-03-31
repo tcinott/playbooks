@@ -5,7 +5,7 @@
     - telnet:
        user: admin
        password: tericomsu
-       login_prompt: "Username: "
+       login_prompt: "UserName: "
        prompts:
          - "[>|#]"
        command:
