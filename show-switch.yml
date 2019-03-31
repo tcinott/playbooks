@@ -1,0 +1,14 @@
+---
+name: run show commands
+  telnet:
+    user: admin
+    password: tericomsu
+    login_prompt: "Username: "
+    prompts:
+      - "[>|#]"
+    command:
+      - show switch
+
+
+  - name: Debug output
+    debug: var=telnet_output.stdout_lines
