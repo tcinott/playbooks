@@ -10,5 +10,3 @@
       - show switch
 
 
-  - name: Debug output
-    debug: var=telnet_output.stdout_lines
